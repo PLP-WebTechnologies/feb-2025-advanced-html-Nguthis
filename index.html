@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="title">
+        <h1>Welcome to ROME!</h1>
+    </div>
+    <div id="reasons" class="container">
+        <h2 id ="list-title">Why Rome?</h2>
+        <ol type="I">
+            <li>Rich Historical and Cultural Experience</li>
+            <li>World-Class Art and Museums</li>
+            <li>Delicious Italian Cuisine</li>
+            <li>Vibrant Atmosphere and Local Culture</li>
+            <li>Easy Access to Nearby Attractions</li>
+        </ol>
+    </div>
+    <div id="table" class="container">
+        <header>Who visited</header>
+        <table id="contact" width="100%">
+            <tr>
+                <th>Name</th>
+                <th>address</th>
+                <th>mobile</th>
+                <th>emails</th>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>123 Maple St, New York</td>
+                <td>+1 212-555-1234</td>
+                <td>john.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Maria Gonzalez</td>
+                <td>456 Oak Rd, Los Angeles</td>
+                <td>+1 310-555-5678</td>
+                <td>maria.g@example.com</td>
+            </tr>
+            <tr>
+                <td>Ahmed Khan</td>
+                <td>789 Pine Ave, Chicago</td>
+                <td>+1 773-555-9101</td>
+                <td>ahmed.k@example.com</td>
+            </tr>
+            <tr>
+                <td>Li We</td>
+                <td>101 Birch Ln, San Francisco</td>
+                <td>+1 415-555-2345</td>
+                <td>li.wei@example.com</td>
+            </tr>
+            <tr>
+                <td>Fatima Yusuf</td>
+                <td>202 Cedar Dr, Houston</td>
+                <td>+1 832-555-6789</td>
+                <td>fatima.y@example.com
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="register">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="useremail" placeholder="your email" required><br>
+        <label for="password">Enter your password</label><br>
+        <input type="password" name="password" minlength="8" maxlength="20"><br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select><br>
+        <label for="packages">Type of package</label><br>
+            <input type="radio" id="standard" name="type-of-package" value="standard">
+            <label for="standard">Standard package</label><br>
+            <input type="radio" id="premium" name="type-of-package" value="premium>
+            <label for="premium>Premium</label><br>
+            <label for="visas"> Do you have visa?</label><br>
+                <input type="checkbox" id="visa1" name="visa1" value="I have">
+                <label for="visa1"> I have a visa</label><br>
+                <input type="checkbox" id="visa2" name="visa2" value="I  dont have">
+                <label for="visa2"> I dont have a visa</label><br>
+        <label for="start">Start date</label><br>
+        <input type="date" id="start" name="start"><br>
+        <label for="end">end date</label><br>
+        <input type="date" id="end" name="end">
+
+       
+    </div>
+    <input type="submit" value="Submit">
+</body>
+</html>
